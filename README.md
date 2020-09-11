@@ -71,49 +71,49 @@ More in [Screens](Screens)
 <br>
 
 * Rename the sheet name as _pySheet_
-<br>
+
 ![Img](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/instructions_img/Picture1.png)
 <br>
 <br>
 
 * Goto the [Google_Console](https://console.developers.google.com/) and create a new project.
-<br>
+
 ![Img](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/instructions_img/Picture2.png)
 <br>
 <br>
 
 * Click the hamburger **menu** -> **API;s & Services** -> **Library**.
-<br>
+
 ![Img](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/instructions_img/Picture3.png)
 <br>
 <br>
 
 * Click the **Enable API;s and Services**.
-<br>
+
 ![Img](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/instructions_img/Picture4.png)
 <br>
 <br>
 
 * Search **Google Drive API**.
-<br>
+
 ![Img](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/instructions_img/Picture5.png)
 <br>
 <br>
 
 * and **Enable** the API.
-<br>
+
 ![Img](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/instructions_img/Picture6.png)
 <br>
 <br>
 
 * Search **Google Sheet API** and **Enable** the API.
-<br>
+
 ![Img](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/instructions_img/Picture7.png)
 <br>
 <br>
 
 * Click the **Manage** and redirected to this page.
-<br>
+
 ![Img](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/instructions_img/Picture8.png)
 <br>
 
@@ -123,44 +123,44 @@ More in [Screens](Screens)
 <br>
 
 * Click on **Credentials** -> **Create Credentials** -> **Service Account**.
-<br>
+
 ![Img](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/instructions_img/Picture9.png)
 <br>
 <br>
 
 * Create a Service Account name as _PassManager-admin_
-<br>
+
 ![Img](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/instructions_img/Picture10.png)
 <br>
 <br>
 
 * **Role** -> **Project** -> **Editor**
-<br>
+
 ![Img](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/instructions_img/Picture11.png)
 <br>
 <br>
 
 > **NOTE**
 > Just leave as it is **Empty** and DONE!!!
-<br>
+
 ![Img](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/instructions_img/Picture12.png)
 <br>
 <br>
 
 * Click on **Service Account** -> **select Account** -> **select Three Vertical dot icon** -> **Create Key**.
-<br>
+
 ![Img](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/instructions_img/Picture13.png)
 <br>
 <br>
 
 * Make sure you select the **JSON** and download the _PassManager-admin.json_ file.
-<br>
+
 ![Img](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/instructions_img/Picture14.png) 
 <br>
 <br>
 
 * Download...
-<br>
+
 ![Img](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/instructions_img/Picture15.png)
 <br>
 <br>
@@ -170,33 +170,33 @@ More in [Screens](Screens)
 <br>
 
 * Goto the **Google Sheet** and some change here...
-<br>
+
 ![Img](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/instructions_img/Picture16.png)
 <br>
 <br>
 
 * First _RENAME_ the sheet as **pySheet**.
-<br>
+
 ![Img](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/instructions_img/Picture17.png)
 <br>
 <br>
 
 * and _WRITE_ **TITLE, USERNAME, PASSWORD**.
 > **NOTE** just add a row for heading.
-<br>
+
 ![Img](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/instructions_img/Picture18.png)
 <br>
 <br>
 
 * Now, Open the **JSON** private key on any text editor and _COPY_ the **client_mail :** 
 > **NOTE** Copied the client_mail only!
-<br>
+
 ![Img](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/instructions_img/Picture19.png)
 <br>
 <br>
 
 * and _PASTE_ it here copied text into **Share** and sheet will be share your Service Account.
-<br>
+
 ![Img](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/instructions_img/Picture20.png)
 <br>
 <br>
