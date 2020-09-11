@@ -1,8 +1,8 @@
 # --*-- coding: utf-8 --*--
 # Copyright 2020 PassManager
 # Written by: * Abhishek patel - abhishekpatel946
-# https://github.com/abhishekpatel946/
-# Licesed <exists>
+# https://github.com/abhishekpatel946/PassManager-pyScript
+# GNU General Public License v3.0
 
 import subprocess
 import requests

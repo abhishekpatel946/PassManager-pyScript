@@ -1,7 +1,7 @@
 # PassManager-pyScript
 
 Copyright 2020 PassManager
-Written by: * **Abhishek Patel** - (https://github.com/abhishekpatel946)
+Written by: * **Abhishek Patel** - (https://github.com/abhishekpatel946/PassManager-pyScript)
 
 TOOL DESIGNED TO SAVE ALL YOUR PASSWORDS & CREDENTIALS SECURELY USIGN CRYPTOGRAPHY.
 
@@ -64,6 +64,10 @@ add instructions here.
 Send me more features if you want it :D
 
 **I need your Help to become it to better.**
+
+
+### License
+**GNU General Public License v3.0**
 
 ### Contact:
 **abhishekpatel946@gmail.com**
