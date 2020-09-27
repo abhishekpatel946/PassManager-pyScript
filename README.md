@@ -39,7 +39,7 @@
 <p align="center">
   <a href="https://github.com/abhishekpatel946/PassManager-pyScript">
 <!--     <img src="Icon/logo-passmanager.jpeg" alt="Logo" width="100" height="100"> -->
-    <img src="Icon/pyLock.png" alt="Logo" width="100" height="100">
+    <img src="Icon/pyLock.png" alt="Logo" width="300" height="250">
   </a>
 </p>
 
@@ -49,7 +49,7 @@ PassManager is a python-script that help to store your credentials in secure man
 Yes, you're right in secure manner it means that you can just give the credentials and script encrpyt your data using SYMMETRIC Cryptography algo and store on google cloud. So, you can easily accessable your credentials on anytime anywhere you want.
 
 HOW IS IT WORK?
-The PassManager usage python-cryptography-ferent lib that encrypt your data in symmertic encryption means generate a private key and store in your local computer and those encrypted data store in your google-sheet so, no one can read your data. And the google-sheet store in your google-drive cloud so it's highly secured it means that you can't loose your sheet or anything else.
+The PassManager usage python-cryptography-fernet lib that encrypt your data in symmertic encryption means generate a private key and store in your local computer and those encrypted data store in your google-sheet so, no one can read your data. And the google-sheet store in your google-drive cloud so it's highly secured it means that you can't loose your sheet or anything else.
 
 
 ### Built With
