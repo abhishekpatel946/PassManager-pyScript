@@ -105,7 +105,13 @@ sudo python PassManager.py
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-
+![Splash-Screeen](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/Splash-Screen.png)
+![Option-Menu](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/Option-menu.png)
+![Option-Login](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/Option-Login.png)
+![Option-Update](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/Option-Update.png)
+![Option-About](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/Option-About.png)
+![Option-Credit](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/Option-Credit;s.png)
+![Option-Quit](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/Quit.png)
 
 _For more examples, please refer to the [Documentation]()_
 
@@ -134,7 +140,7 @@ Contributions are what make the open source community such an amazing place to b
 <!-- LICENSE -->
 ## License
 
-Distributed under the GNU License. See [![GitHub license](https://img.shields.io/github/license/abhishekpatel946/PassManager-pyscript)](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/LICENSE) for more information.
+Distributed under the GNU License. See [`LICENSE`](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/LICENSE) for more information.
 
 
 
