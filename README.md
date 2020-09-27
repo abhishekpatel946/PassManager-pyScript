@@ -218,7 +218,7 @@ Send me more features if you want it :D
 
 
 ### License
-**GNU General Public License v3.0**
+GNU General Public License v3.0
 
 ### Contact:
 **abhishekpatel946@gmail.com**
