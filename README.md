@@ -1,224 +1,163 @@
-# PassManager-pyScript
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
 
-Copyright 2020 PassManager
-Written by: **Abhishek Patel** - (https://github.com/abhishekpatel946/PassManager-pyScript)
 
->
-> TOOL DESIGNED TO SAVE ALL YOUR PASSWORDS & CREDENTIALS > SECURELY USING CRYPTOGRAPHY.
->
 
-### Cloning:
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <a href="https://github.com/abhishekpatel946/PassManager-pyScript">
+    <img src="Icon/logo.png" alt="Logo" width="80" height="80">
+  </a>
+
+  <h3 align="center">PassManager - README</h3>
+</p>
+
+
+
+<!-- TABLE OF CONTENTS -->
+## Table of Contents
+
+* [About the Project](#about-the-project)
+  * [Built With](#built-with)
+* [Getting Started](#getting-started)
+  * [Prerequisites](#prerequisites)
+  * [Installation](#installation)
+* [Usage](#usage)
+* [Roadmap](#roadmap)
+* [Contributing](#contributing)
+* [License](#license)
+* [Contact](#contact)
+* [Acknowledgements](#acknowledgements)
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+<p align="center">
+  <a href="https://github.com/abhishekpatel946/PassManager-pyScript">
+<!--     <img src="Icon/logo-passmanager.jpeg" alt="Logo" width="100" height="100"> -->
+    <img src="Icon/pyLock.png" alt="Logo" width="100" height="100">
+  </a>
+</p>
+
+# PassManager
+
+PassManager is a python-script that help to store your credentials in secure manner.
+Yes, you're right in secure manner it means that you can just give the credentials and script encrpyt your data using SYMMETRIC Cryptography algo and store on google cloud. So, you can easily accessable your credentials on anytime anywhere you want.
+
+HOW IS IT WORK?
+The PassManager usage python-cryptography-ferent lib that encrypt your data in symmertic encryption means generate a private key and store in your local computer and those encrypted data store in your google-sheet so, no one can read your data. And the google-sheet store in your google-drive cloud so it's highly secured it means that you can't loose your sheet or anything else.
+
+
+### Built With
+This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+* [Python3](https://www.python.org/download/releases/3.0/)
+* [Google-Sheet-docs](https://developers.google.com/sheets/api/quickstart/python)
+* [Stackoverflow](https://stackoverflow.com/)
+
+
+<!-- GETTING STARTED -->
+## Getting Started
+
+This is an example of how you may give instructions on setting up your project locally.
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+```sh
+*Python3* or above and *PIP* module
 ```
+```sh
+pip install cryptography
+```
+```sh
+pip install gspread
+```
+```sh
+pip install oauth2client
+```
+
+### Installation
+
+1. Clone the repo
+```sh
 git clone https://github.com/abhishekpatel946/PassManager-pyScript.git
 ```
 
-### Running:
+2. Goto the PassManager
+```sh
+cd PassManager-pyScript
 ```
-cd PassManager
+3. Run these commands (as a administrator).
+```sh
+sudo python install.py
+```
+```sh
+sudo python PassManager.py
 ```
 
-```
-sudo python3 install.py
-```
 
-```
-sudo python3 PassManager.py
-```
+<!-- USAGE EXAMPLES -->
+## Usage
 
-## Features 
 
-- Save Passwords.
-- Saves the encrypted form. 
-- Google Sheet is used for store pass.
-- You can access anywhere you want.
-- Securly login by the user into the script
 
-### Prerequisites
+_For more examples, please refer to the [Documentation]()_
 
-* python3
-* pip
-* cryptography.fernet
-* gspread
-* oauth2client
 
-### Install requirements
 
-* pip install cryptography
-* pip install gspread
-* pip install oauth2client
+<!-- ROADMAP -->
+## Roadmap
 
-### Tested on:
+See the [open issues](https://github.com/abhishekpatel946/PassManager-pyScript/issues) for a list of proposed features (and known issues).
 
-+ Kali Linux - ROLLING
 
-### Screenshot:
-![Shot](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/Option-Login.png)
 
-More in [Screens](Screens)
+<!-- CONTRIBUTING -->
+## Contributing
 
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-### Configure the PassManager and google-api;s
 
-> **NOTE** 
-> Please make sure you follow all the naming convension regarding the project_name, sheet_name, json_key_name and all the mention in the instructions.
-> If you do something change here and then make sure you can also change into the script.
-<br>
-<br>
 
-* Goto the [Google Sheet](https://docs.google.com/spreadsheets/u/0/) using this link and create a new sheet as same as below.
-<br>
-<br>
+<!-- LICENSE -->
+## License
 
-* Rename the sheet name as _pySheet_
+Distributed under the MIT License. See `LICENSE` for more information.
 
-![Img](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/instructions_img/Picture1.png)
-<br>
-<br>
 
-* Goto the [Google_Console](https://console.developers.google.com/) and create a new project.
 
-![Img](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/instructions_img/Picture2.png)
-<br>
-<br>
+<!-- CONTACT -->
+## Contact
 
-* Click the hamburger **menu** -> **API;s & Services** -> **Library**.
+Project Link: [https://github.com/abhishekpatel946/PassManager-pyScript](https://github.com/abhishekpatel946/PassManager-pyScript)
 
-![Img](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/instructions_img/Picture3.png)
-<br>
-<br>
 
-* Click the **Enable API;s and Services**.
 
-![Img](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/instructions_img/Picture4.png)
-<br>
-<br>
+<!-- ACKNOWLEDGEMENTS -->
+## Acknowledgements
+* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+* [Img Shields](https://shields.io)
+* [Choose an Open Source License](https://choosealicense.com)
+* [Google Console](https://console.developers.google.com/)
+* [Stackoverflow](http://stackoverflow.com/)
 
-* Search **Google Drive API**.
 
-![Img](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/instructions_img/Picture5.png)
-<br>
-<br>
-
-* and **Enable** the API.
-
-![Img](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/instructions_img/Picture6.png)
-<br>
-<br>
-
-* Search **Google Sheet API** and **Enable** the API.
-
-![Img](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/instructions_img/Picture7.png)
-<br>
-<br>
-
-* Click the **Manage** and redirected to this page.
-
-![Img](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/instructions_img/Picture8.png)
-<br>
-
-> **NOTE** 
-> You're in the Google Sheet API.
-<br>
-<br>
-
-* Click on **Credentials** -> **Create Credentials** -> **Service Account**.
-
-![Img](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/instructions_img/Picture9.png)
-<br>
-<br>
-
-* Create a Service Account name as _PassManager-admin_
-
-![Img](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/instructions_img/Picture10.png)
-<br>
-<br>
-
-* **Role** -> **Project** -> **Editor**
-
-![Img](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/instructions_img/Picture11.png)
-<br>
-<br>
-
-> **NOTE**
-> Just leave as it is **Empty** and DONE!!!
-
-![Img](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/instructions_img/Picture12.png)
-<br>
-<br>
-
-* Click on **Service Account** -> **select Account** -> **select Three Vertical dot icon** -> **Create Key**.
-
-![Img](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/instructions_img/Picture13.png)
-<br>
-<br>
-
-* Make sure you select the **JSON** and download the _PassManager-admin.json_ file.
-
-![Img](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/instructions_img/Picture14.png) 
-<br>
-<br>
-
-* Download...
-
-![Img](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/instructions_img/Picture15.png)
-<br>
-<br>
-
-* Save into the _dir_ **PassManager-pyScript/data/**
-<br>
-<br>
-
-* Goto the **Google Sheet** and some change here...
-
-![Img](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/instructions_img/Picture16.png)
-<br>
-<br>
-
-* First _RENAME_ the sheet as **pySheet**.
-
-![Img](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/instructions_img/Picture17.png)
-<br>
-<br>
-
-* and _WRITE_ **TITLE, USERNAME, PASSWORD**.
-> **NOTE** just add a row for heading.
-
-![Img](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/instructions_img/Picture18.png)
-<br>
-<br>
-
-* Now, Open the **JSON** private key on any text editor and _COPY_ the **client_mail :** 
-> **NOTE** Copied the client_mail only!
-
-![Img](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/instructions_img/Picture19.png)
-<br>
-<br>
-
-* and _PASTE_ it here copied text into **Share** and sheet will be share your Service Account.
-
-![Img](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/instructions_img/Picture20.png)
-<br>
-<br>
-
-* Now, open terminal run these commands
-```
-sudo python3 install.py
-```
-```
-sudo python3 PassManager.py
-```
-<br>
-<br>
-
-### Contribute:
-Send me more features if you want it :D
-
-**I need your Help to become it to better.**
-
-
-### License
-GNU General Public License v3.0
-
-### Contact:
-**abhishekpatel946@gmail.com**
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/abhishekpatel946/PassManager-pyScript.svg?style=flat
+[contributors-url]: https://github.com/abhishekpatel946/PassManager-pyScript/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/abhishekpatel946/PassManager-pyScript.svg?style=flat
+[forks-url]: https://github.com/abhishekpatel946/PassManager-pyScript/network/members
+[stars-shield]: https://img.shields.io/github/stars/abhishekpatel946/PassManager-pyScript.svg?style=flat
+[stars-url]: https://github.com/abhishekpatel946/PassManager-pyScript/stargazers
+[issues-shield]: https://img.shields.io/github/issues/abhishekpatel946/PassManager-pyScript.svg?style=flat
+[issues-url]: https://github.com/abhishekpatel946/PassManager-pyScript/issues
