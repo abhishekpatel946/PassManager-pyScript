@@ -2,14 +2,14 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-
+[![GitHub license](https://img.shields.io/github/license/abhishekpatel946/PassManager-pyscript)](https://github.com/abhishekpatel946/PassManager-pyscript)
 
 
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
   <a href="https://github.com/abhishekpatel946/PassManager-pyScript">
-    <img src="Icon/logo.png" alt="Logo" width="80" height="80">
+    <img src="Icon/logo-readme.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">PassManager - README</h3>
@@ -67,7 +67,10 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 ```sh
-*Python3* or above and *PIP* module
+*Python3* or above version
+```
+```sh
+*PIP* module
 ```
 ```sh
 pip install cryptography
@@ -131,7 +134,7 @@ Contributions are what make the open source community such an amazing place to b
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the GNU License. See [![GitHub license](https://img.shields.io/github/license/abhishekpatel946/PassManager-pyscript)](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/LICENSE) for more information.
 
 
 
