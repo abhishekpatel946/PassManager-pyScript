@@ -26,7 +26,7 @@
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
 * [Usage](#usage)
-* [Roadmap](#roadmap)
+* [Road map](#roadmap)
 * [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
@@ -45,18 +45,19 @@
 
 # PassManager
 
-PassManager is a python-script that help to store your credentials in secure manner.
-Yes, you're right in secure manner it means that you can just give the credentials and script encrpyt your data using SYMMETRIC Cryptography algo and store on google cloud. So, you can easily accessable your credentials on anytime anywhere you want.
+PassManager is a python-script that helps to store your credentials in a secure manner.
+Yes, you're right in a secure manner; it means that you can just give the credentials, and the script encrypts your data using SYMMETRIC Cryptography algorithm and store it on google cloud. So, you can easily access your credentials anytime, anywhere you want.
 
-HOW IS IT WORK?
-The PassManager usage python-cryptography-fernet lib that encrypt your data in symmertic encryption means generate a private key and store in your local computer and those encrypted data store in your google-sheet so, no one can read your data. And the google-sheet store in your google-drive cloud so it's highly secured it means that you can't loose your sheet or anything else.
+
+HOW DOES IT WORK?
+The PassManager uses python-cryptography-fernet lib that encrypts your data in symmetric encryption to generate a private key and store it on your local computer. That encrypted data is stored in your google-sheet so no one can read your data. And the google-sheet store in your google-drive cloud, so it's highly secured it means that you can't lose your sheet or anything else.
 
 
 ### Built With
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+This section should list any major frameworks that you built using your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples:
 * [Python3](https://www.python.org/download/releases/3.0/)
 * [Google-Sheet-docs](https://developers.google.com/sheets/api/quickstart/python)
-* [Stackoverflow](https://stackoverflow.com/)
+* [Stack overflow](https://stackoverflow.com/)
 
 
 <!-- GETTING STARTED -->
@@ -105,7 +106,7 @@ sudo python PassManager.py
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-![Splash-Screeen](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/Splash-Screen.png)
+![Splash-Screen](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/Splash-Screen.png)
 ![Option-Menu](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/Option-menu.png)
 ![Option-Login](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/Option-Login.png)
 ![Option-Update](https://github.com/abhishekpatel946/PassManager-pyScript/blob/master/Screens/Option-Update.png)
@@ -117,8 +118,8 @@ _For more examples, please refer to the [Documentation]()_
 
 
 
-<!-- ROADMAP -->
-## Roadmap
+<!-- ROAD MAP -->
+## Road map
 
 See the [open issues](https://github.com/abhishekpatel946/PassManager-pyScript/issues) for a list of proposed features (and known issues).
 
@@ -157,7 +158,7 @@ Project Link: [https://github.com/abhishekpatel946/PassManager-pyScript](https:/
 * [Img Shields](https://shields.io)
 * [Choose an Open Source License](https://choosealicense.com)
 * [Google Console](https://console.developers.google.com/)
-* [Stackoverflow](http://stackoverflow.com/)
+* [Stack overflow](http://stackoverflow.com/)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
